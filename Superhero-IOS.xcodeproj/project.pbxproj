@@ -13,6 +13,10 @@
 		6C0F81942DDF0D90009B54D9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F81932DDF0D90009B54D9 /* Base */; };
 		6C0F81962DDF0D91009B54D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F81952DDF0D91009B54D9 /* Assets.xcassets */; };
 		6C0F81992DDF0D91009B54D9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F81982DDF0D91009B54D9 /* Base */; };
+		6C0F81A12DDF1010009B54D9 /* SuperheroProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F81A02DDF1010009B54D9 /* SuperheroProvider.swift */; };
+		6C0F81A32DDF15F6009B54D9 /* SuperheroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F81A22DDF15F6009B54D9 /* SuperheroResponse.swift */; };
+		6C0F81A52DDF1E87009B54D9 /* SuperheroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F81A42DDF1E87009B54D9 /* SuperheroViewCell.swift */; };
+		6C0F81A72DDF40B6009B54D9 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F81A62DDF40B6009B54D9 /* UIImageViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6C0F81952DDF0D91009B54D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C0F81982DDF0D91009B54D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C0F819A2DDF0D91009B54D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0F81A02DDF1010009B54D9 /* SuperheroProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroProvider.swift; sourceTree = "<group>"; };
+		6C0F81A22DDF15F6009B54D9 /* SuperheroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroResponse.swift; sourceTree = "<group>"; };
+		6C0F81A42DDF1E87009B54D9 /* SuperheroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewCell.swift; sourceTree = "<group>"; };
+		6C0F81A62DDF40B6009B54D9 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		6C0F818B2DDF0D90009B54D9 /* Superhero-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				6C0F81A02DDF1010009B54D9 /* SuperheroProvider.swift */,
 				6C0F818C2DDF0D90009B54D9 /* AppDelegate.swift */,
 				6C0F818E2DDF0D90009B54D9 /* SceneDelegate.swift */,
 				6C0F81902DDF0D90009B54D9 /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				6C0F81952DDF0D91009B54D9 /* Assets.xcassets */,
 				6C0F81972DDF0D91009B54D9 /* LaunchScreen.storyboard */,
 				6C0F819A2DDF0D91009B54D9 /* Info.plist */,
+				6C0F81A22DDF15F6009B54D9 /* SuperheroResponse.swift */,
+				6C0F81A42DDF1E87009B54D9 /* SuperheroViewCell.swift */,
+				6C0F81A62DDF40B6009B54D9 /* UIImageViewExtensions.swift */,
 			);
 			path = "Superhero-IOS";
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0F81A72DDF40B6009B54D9 /* UIImageViewExtensions.swift in Sources */,
 				6C0F81912DDF0D90009B54D9 /* ViewController.swift in Sources */,
 				6C0F818D2DDF0D90009B54D9 /* AppDelegate.swift in Sources */,
+				6C0F81A32DDF15F6009B54D9 /* SuperheroResponse.swift in Sources */,
+				6C0F81A12DDF1010009B54D9 /* SuperheroProvider.swift in Sources */,
+				6C0F81A52DDF1E87009B54D9 /* SuperheroViewCell.swift in Sources */,
 				6C0F818F2DDF0D90009B54D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
