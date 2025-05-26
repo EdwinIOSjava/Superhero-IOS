@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ListViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView : UITableView!
     
@@ -19,6 +19,10 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.dataSource = self
         
         searchSuperheroBy(name: "a")
+        
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate = self
+        self.navigationItem.searchController = searchController
         
     }
     
